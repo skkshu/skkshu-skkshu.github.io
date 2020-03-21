@@ -116,12 +116,6 @@ share-links-active:
 #  opt-out: true
 
 # --- Comments --- #
-comments_provider: gitalk
-gitalk:
-    owner: skkshu
-    repo: skkshu.github.io
-    clientID: 616651cdbba96765275a
-    clientSecret: b27675fc516493492f2c100461ff71f9ce2ebb7e
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 disqus:
