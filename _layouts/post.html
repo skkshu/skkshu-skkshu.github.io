@@ -34,9 +34,6 @@ layout: base
       <article role="main" class="blog-post">
         {{ content }}
       </article>
-			{% if site.disqus.shortname %}
-				{% include disqus_comments.html %}
-			{% endif %}
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
