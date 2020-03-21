@@ -35,6 +35,21 @@ layout: base
         {{ content }}
       </article>
 
+			<div id="gitmentContainer"></div>
+			<link rel="stylesheet" href="https://skkshu.github.io/gitment/style/default.css">
+			<script src="https://skkshu.github.io/gitment/dist/gitment.browser.js"></script>
+			<script>
+			var gitment = new Gitment({
+					owner: 'skkshu',
+					repo: 'skkshu.github.io',
+					oauth: {
+							client_id: '616651cdbba96765275a',
+							client_secret: 'b27675fc516493492f2c100461ff71f9ce2ebb7e',
+					},
+			});
+			gitment.render('gitmentContainer');
+			</script>
+
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:
