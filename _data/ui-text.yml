@@ -3,7 +3,7 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
-  comments_label             : "Leave a comment"
+  comments_label             : "Leave a comment using Staticman"
   comments_title             : "Comments"
   comment_form_info          : "Your email address will not be published. Required fields are marked"
   comment_form_comment_label : "Comment"
