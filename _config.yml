@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: My blog
+title: skkshu
 
 # Short description of your site
 description: blog virtual proof that I'm awesome
@@ -22,9 +22,9 @@ description: blog virtual proof that I'm awesome
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Powered by: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+  Author's home: "https://skkshu.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
