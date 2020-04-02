@@ -80,12 +80,16 @@ bindkey -M menuselect 'u' vi-up-line-or-history
 bindkey -M menuselect 'i' vi-forward-char
 bindkey -M menuselect 'e' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
+
 function zle-line-init zle-keymap-select {
 	RPS1="${${KEYMAP/vicmd/-- NOR --}/(main|viins)/-- INS --}"
 	RPS2=$RPS1
 	zle reset-prompt
 }
+```
 
+#### Beam cursor
+```sh
 function zle-keymap-select {
 	if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
 		echo -ne '\e[1 q'
@@ -123,6 +127,8 @@ KEYTIMEOUT=1
 source $XDG_CONFIG_HOME/zsh/aliasrc`
 ```
 
+-------------
+An example:
 `$XDG_CONFIG_HOME/aliasrc` :
 ```sh
 #!/bin/sh
